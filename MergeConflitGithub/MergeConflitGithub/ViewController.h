@@ -12,6 +12,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) NSInteger x;
+
 - (void)fetchProfileOfUser:(NSString *)userId
                   userName:(NSString *)userName
                displayName:(NSString *)displayName
