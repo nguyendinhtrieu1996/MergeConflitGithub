@@ -12,7 +12,9 @@
 
 @interface ViewController : UIViewController
 
-@property (nonatomic) NSInteger x;
+@property (nonatomic) int numberUsers;
+@property (nonatomic) NSString *x;
+@property (nonatomic) NSString *currentUserId;
 
 - (void)fetchProfileOfUser:(NSString *)userId
                   userName:(NSString *)userName
