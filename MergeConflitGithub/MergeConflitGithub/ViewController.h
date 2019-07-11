@@ -18,6 +18,7 @@
 #if ENABLE_SWITCH_ACCOUNT
                isSendParam:(BOOL)isSendParam
 #endif
+        isDeleteAllAccount:(BOOL)isDeleteAllAccount
 ;
 
 @end
