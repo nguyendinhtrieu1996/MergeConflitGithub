@@ -16,6 +16,10 @@
 @property (nonatomic) NSString *x;
 @property (nonatomic) NSString *currentUserId;
 
+@property NSString *displayName;
+@property NSString *fullName;
+@property NSString *guestUser;
+
 - (void)fetchProfileOfUser:(NSString *)userId
                   userName:(NSString *)userName
                displayName:(NSString *)displayName
