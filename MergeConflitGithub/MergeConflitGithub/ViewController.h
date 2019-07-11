@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+#define ENABLE_SWITCH_ACCOUNT 1
+
 @interface ViewController : UIViewController
 
+- (void)fetchProfileOfUser:(NSString *)userId
+                  userName:(NSString *)userName
+               displayName:(NSString *)displayName
+#if ENABLE_SWITCH_ACCOUNT
+               isSendParam:(BOOL)isSendParam
+#endif
+;
 
 @end
 

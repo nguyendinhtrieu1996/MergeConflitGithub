@@ -16,8 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
 }
 
+- (void)fetchProfileOfUser:(NSString *)userId
+                  userName:(NSString *)userName
+               displayName:(NSString *)displayName
+#if ENABLE_SWITCH_ACCOUNT
+               isSendParam:(BOOL)isSendParam
+#endif
+{
+    
+}
 
 @end
