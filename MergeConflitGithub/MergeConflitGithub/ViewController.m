@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
+    NSLog(@"test 2");
 }
 
 - (void)fetchProfileOfUser:(NSString *)userId
