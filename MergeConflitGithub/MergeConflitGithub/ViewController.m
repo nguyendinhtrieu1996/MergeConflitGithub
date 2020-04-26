@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    
+    NSLog(@"test commit code");
 }
 
 - (void)fetchProfileOfUser:(NSString *)userId
