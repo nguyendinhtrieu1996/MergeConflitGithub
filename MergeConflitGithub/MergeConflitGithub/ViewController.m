@@ -21,6 +21,8 @@
     
     NSLog(@"Trieund2 >> 1");
     
+    NSLog(@"Trieund2 >> 2");
+    
 }
 
 - (void)fetchProfileOfUser:(NSString *)userId
